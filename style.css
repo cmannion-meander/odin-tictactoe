@@ -1,0 +1,14 @@
+#content {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
+    justify-content: center;
+}
+
+.cell {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-style: solid;
+}
